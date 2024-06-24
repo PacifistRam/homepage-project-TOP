@@ -1,0 +1,55 @@
+
+/* /././././-------------CSS RESET-------./././././././../ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  outline: none;
+  padding: 0;
+}
+html{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+body{
+  line-height: 1.5;
+  min-height: 100vh;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: none;
+  outline: #000 dotted 2px;
+  outline-offset: .05em;
+}
+h1,h2,h3,h4,h5,h6{
+  font-size: inherit;
+  line-height: 1.1;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
